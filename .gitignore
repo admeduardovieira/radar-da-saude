@@ -1,0 +1,24 @@
+# Credenciais e configuração local
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.key
+*token*
+# Artefatos e caches
+node_modules/
+.next/
+.vercel/
+__pycache__/
+.pytest_cache/
+.venv/
+venv/
+*.py[cod]
+*.log
+.DS_Store
+Thumbs.db
+# Dados brutos não revisados
+research/raw/
+dados/brutos/
+dados/sensiveis/
