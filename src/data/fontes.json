@@ -1,0 +1,124 @@
+{
+  "project": "radar-da-saude",
+  "checked_at": "2026-11-18",
+  "status": "catalogo_documental_sem_ingestao",
+  "sources": [
+    {
+      "id": "cnes",
+      "name": "CNES — Estabelecimentos",
+      "official_url": "https://dadosabertos.saude.gov.br/dataset/cnes-cadastro-nacional-de-estabelecimentos-de-saude",
+      "category": "cadastro_hospitalar",
+      "coverage": "nacional",
+      "integration_status": "nao_integrada",
+      "limitation": "Dados cadastrais; não identifica diretamente gasto ou gestão vigente"
+    },
+    {
+      "id": "hospitais_leitos",
+      "name": "Hospitais e Leitos — SUS",
+      "official_url": "https://dadosabertos.saude.gov.br/dataset/hospitais-e-leitos",
+      "category": "cadastro_hospitalar",
+      "coverage": "nacional",
+      "integration_status": "nao_integrada",
+      "limitation": "A base de leitos não comprova todos os arranjos de gestão"
+    },
+    {
+      "id": "siops",
+      "name": "SIOPS",
+      "official_url": "https://dadosabertos.saude.gov.br/dataset/siops",
+      "category": "financas",
+      "coverage": "nacional",
+      "integration_status": "nao_integrada",
+      "limitation": "Declarações de entes, não pagamentos individualizados por hospital"
+    },
+    {
+      "id": "siconfi",
+      "name": "Siconfi — Tesouro Nacional",
+      "official_url": "https://www.tesourotransparente.gov.br/consultas/consultas-siconfi/siconfi-api-de-dados-abertos",
+      "category": "financas",
+      "coverage": "nacional",
+      "integration_status": "nao_integrada",
+      "limitation": "Contabilidade de entes, exige recortes e conciliação"
+    },
+    {
+      "id": "transparencia_download",
+      "name": "Portal da Transparência — Dados para download",
+      "official_url": "https://portaldatransparencia.gov.br/download-de-dados/",
+      "category": "financas",
+      "coverage": "nacional",
+      "integration_status": "nao_integrada",
+      "limitation": "Execução federal, evitar somas de estágios e transferências"
+    },
+    {
+      "id": "transparencia_api",
+      "name": "Portal da Transparência — API",
+      "official_url": "https://api.portaldatransparencia.gov.br/",
+      "category": "financas",
+      "coverage": "nacional",
+      "integration_status": "nao_integrada",
+      "limitation": "Verificar regras de chave de acesso e limites"
+    },
+    {
+      "id": "fns",
+      "name": "Fundo Nacional de Saúde — Consultas",
+      "official_url": "https://portalfns.saude.gov.br/consultas/",
+      "category": "transferencias",
+      "coverage": "nacional",
+      "integration_status": "nao_integrada",
+      "limitation": "Repasse não é prova de pagamento final da unidade"
+    },
+    {
+      "id": "pncp",
+      "name": "PNCP — API Consulta",
+      "official_url": "https://pncp.gov.br/api/consulta/swagger-ui/index.html",
+      "category": "contratacoes",
+      "coverage": "nacional",
+      "integration_status": "nao_integrada",
+      "limitation": "A cobertura depende das publicações enviadas pelos órgãos"
+    },
+    {
+      "id": "demas",
+      "name": "DEMAS — API Dados Abertos",
+      "official_url": "https://apidadosabertos.saude.gov.br/",
+      "category": "cadastro_hospitalar",
+      "coverage": "nacional",
+      "integration_status": "nao_integrada",
+      "limitation": "Tipos e filtros precisam ser testados"
+    },
+    {
+      "id": "camara",
+      "name": "Câmara dos Deputados — Dados Abertos",
+      "official_url": "https://dadosabertos.camara.leg.br/",
+      "category": "legislativo",
+      "coverage": "nacional",
+      "integration_status": "nao_integrada",
+      "limitation": "Temas de saúde requerem classificação com revisão"
+    },
+    {
+      "id": "senado",
+      "name": "Senado Federal — Dados Abertos",
+      "official_url": "https://www12.senado.leg.br/dados-abertos",
+      "category": "legislativo",
+      "coverage": "nacional",
+      "integration_status": "nao_integrada",
+      "limitation": "Proposições e tramitação com períodos próprios"
+    },
+    {
+      "id": "tcu_emendas",
+      "name": "TCU — Acompanhamento de Emendas",
+      "official_url": "https://sites.tcu.gov.br/painel-de-acompanhamento-da-execucao-de-emendas/",
+      "category": "emendas",
+      "coverage": "nacional",
+      "integration_status": "nao_integrada",
+      "limitation": "Conferir identificação e fase de execução"
+    },
+    {
+      "id": "hu_brasil",
+      "name": "HU Brasil — Rede de Hospitais Universitários",
+      "official_url": "https://www.gov.br/hubrasil/pt-br/hospitais-universitarios/sobre-os-hospitais-universitarios-federais/sobre-os-hospitais-universitarios/",
+      "category": "cadastro_hospitalar",
+      "coverage": "nacional",
+      "integration_status": "nao_integrada",
+      "limitation": "Não assumir que toda unidade federal tem mesmo operador"
+    }
+  ]
+}

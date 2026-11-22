@@ -9,6 +9,7 @@
 # Artefatos e caches
 node_modules/
 .next/
+.tsbuildinfo
 .vercel/
 __pycache__/
 .pytest_cache/

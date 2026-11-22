@@ -1,6 +1,6 @@
 # Escopo — Radar da Saúde
 
-**Versão inicial:** 18/11/2026 · **País:** Brasil · **Estágio:** definição documental.
+**Versão inicial:** 18/11/2026 → **País:** Brasil → **Estágio:** definição documental.
 
 ## Objetivo
 
